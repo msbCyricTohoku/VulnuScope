@@ -28,13 +28,17 @@ We use a specific installation order to ensure Detectron2 compiles correctly wit
 python3 -m venv venv
 source venv/bin/activate
 
-# Step 1: Install Build Tools & PyTorch (CPU)
+# Step 1: Update pip and Install Tools
+pip install --upgrade pip
+pip install setuptools wheel ninja
+
+# Step 2: Install Build Tools & PyTorch (CPU)
 pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cpu
 
-# Step 2: Install remaining dependencies
+# Step 3: Install remaining dependencies
 pip install -r requirements.txt
 
-# Step 3: Install Detectron2
+# Step 4: Install Detectron2
 pip install "git+https://github.com/facebookresearch/detectron2.git" --no-build-isolation
 ```
 
