@@ -1,9 +1,6 @@
-# requirements.txt (CPU-only)
-torch==2.5.1
-torchvision==0.20.1
 opencv-python
 matplotlib
 scipy
 scikit-image
 Flask
-#-e ./detectron2
+setuptools==69.5.1
