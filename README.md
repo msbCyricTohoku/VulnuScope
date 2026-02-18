@@ -1,4 +1,4 @@
-# WoundVision
+# VulnuScope
 
 Lightweight Flask + Detectron2 app for **automatic wound detection & analysis** (area, shape, color/tissue heuristics, texture, pseudo‑3D view, healing simulations) with downloadable reports using our custom-trained AI model.
 
@@ -83,5 +83,5 @@ By default the app uses **CPU** (`cfg.MODEL.DEVICE = "cpu"`). Switch to GPU by s
 
 ## License
 
-© 2025 WoundVision by XRadion Dynamics. See `LICENSE`.
+© 2025 VulnuScope by XRadion Dynamics. See `LICENSE`.
 
